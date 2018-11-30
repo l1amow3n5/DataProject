@@ -10,9 +10,10 @@ import UIKit
 
 public class BucketItemCell: UITableViewCell
 {
-    @IBOutlet weak var bucketItemText : UILabel!
-    @IBOutlet weak var bucketItemSymbol : UILabel!
-    @IBOutlet weak var bucketItemSignature : UILabel!
+    @IBOutlet weak var bucketItemText: UILabel!
+    @IBOutlet weak var bucketItemSymbol: UILabel!
+    @IBOutlet weak var bucketItemSignature: UILabel!
+    
     
     var currentBucketItem : BucketItem!
     {

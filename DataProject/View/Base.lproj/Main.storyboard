@@ -71,6 +71,11 @@
                                         <constraint firstItem="eFK-wL-jBZ" firstAttribute="top" secondItem="Ovv-Ve-Io4" secondAttribute="topMargin" constant="49" id="vvA-Kc-MlD"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bucketItemSignature" destination="eFK-wL-jBZ" id="esH-KT-gPa"/>
+                                    <outlet property="bucketItemSymbol" destination="cOB-EB-THt" id="x53-fj-7Gh"/>
+                                    <outlet property="bucketItemText" destination="hKH-O0-hhl" id="O2E-a3-BU5"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
