@@ -25,29 +25,25 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="135.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOB-EB-THt">
-                                            <rect key="frame" x="0.0" y="-1" width="51" height="44"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOB-EB-THt">
+                                            <rect key="frame" x="0.0" y="11" width="51" height="44"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="51" id="pyu-TK-PHq"/>
+                                                <constraint firstAttribute="width" constant="51" id="m37-aO-COP"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="bucket item here" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKH-O0-hhl">
-                                            <rect key="frame" x="79" y="11" width="145" height="21"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="145" id="6Lt-GU-xc7"/>
-                                            </constraints>
+                                            <rect key="frame" x="80" y="21" width="215" height="50"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFK-wL-jBZ">
-                                            <rect key="frame" x="331" y="60" width="83" height="37"/>
+                                            <rect key="frame" x="322" y="49" width="83" height="37"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="83" id="eFC-cr-MYu"/>
-                                                <constraint firstAttribute="height" constant="37" id="soo-L2-MDr"/>
+                                                <constraint firstAttribute="width" constant="83" id="F3J-Og-F2O"/>
                                             </constraints>
                                             <attributedString key="attributedText">
                                                 <fragment content="Author">
@@ -61,14 +57,16 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="cOB-EB-THt" firstAttribute="top" secondItem="Ovv-Ve-Io4" secondAttribute="topMargin" constant="-12" id="6lG-7o-Wn7"/>
-                                        <constraint firstItem="hKH-O0-hhl" firstAttribute="leading" secondItem="cOB-EB-THt" secondAttribute="trailing" constant="28" id="G28-Oa-32m"/>
-                                        <constraint firstItem="hKH-O0-hhl" firstAttribute="baseline" secondItem="cOB-EB-THt" secondAttribute="firstBaseline" id="Hzb-M7-nR8"/>
-                                        <constraint firstItem="cOB-EB-THt" firstAttribute="centerY" secondItem="hKH-O0-hhl" secondAttribute="centerY" id="XdL-QV-EJg"/>
-                                        <constraint firstItem="hKH-O0-hhl" firstAttribute="top" secondItem="Ovv-Ve-Io4" secondAttribute="topMargin" id="Xxa-Ax-3qa"/>
-                                        <constraint firstItem="cOB-EB-THt" firstAttribute="leading" secondItem="Ovv-Ve-Io4" secondAttribute="leading" id="gVE-AS-ju0"/>
-                                        <constraint firstAttribute="trailing" secondItem="eFK-wL-jBZ" secondAttribute="trailing" id="hNb-dr-4rh"/>
-                                        <constraint firstItem="eFK-wL-jBZ" firstAttribute="top" secondItem="Ovv-Ve-Io4" secondAttribute="topMargin" constant="49" id="vvA-Kc-MlD"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="hKH-O0-hhl" secondAttribute="bottom" constant="54" id="FeW-bA-MFL"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="cOB-EB-THt" secondAttribute="bottom" constant="70" id="G0J-0i-vnq"/>
+                                        <constraint firstItem="eFK-wL-jBZ" firstAttribute="leading" secondItem="hKH-O0-hhl" secondAttribute="trailing" constant="27" id="GTI-bi-cDC"/>
+                                        <constraint firstItem="hKH-O0-hhl" firstAttribute="top" secondItem="Ovv-Ve-Io4" secondAttribute="topMargin" constant="10" id="Q0h-dQ-ElJ"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="eFK-wL-jBZ" secondAttribute="trailing" constant="-11" id="RVS-3T-ryY"/>
+                                        <constraint firstItem="eFK-wL-jBZ" firstAttribute="centerY" secondItem="Ovv-Ve-Io4" secondAttribute="centerY" id="U3v-6w-yE6"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="eFK-wL-jBZ" secondAttribute="bottom" constant="39" id="Wpf-zA-N5j"/>
+                                        <constraint firstItem="cOB-EB-THt" firstAttribute="leading" secondItem="Ovv-Ve-Io4" secondAttribute="leading" id="bsz-Qk-sl5"/>
+                                        <constraint firstItem="hKH-O0-hhl" firstAttribute="leading" secondItem="cOB-EB-THt" secondAttribute="trailing" constant="29" id="m6F-3o-WCs"/>
+                                        <constraint firstItem="cOB-EB-THt" firstAttribute="top" secondItem="Ovv-Ve-Io4" secondAttribute="topMargin" id="sQu-aH-Ea0"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
