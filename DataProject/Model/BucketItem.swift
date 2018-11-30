@@ -8,4 +8,7 @@
 
 import Foundation
 
-
+public class BucketItem
+{
+    let derp : String = ""
+}
