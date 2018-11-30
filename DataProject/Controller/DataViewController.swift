@@ -8,9 +8,16 @@
 
 import UIKit
 
-class DataViewController: UITableViewController {
+class DataViewController: UITableViewController
+{
+    
+    lazy var bucketList : [BucketItem] =
+    {
+          return loadBucketListFromFile()
+    }()
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         // Uncomment the following line to preserve selection between presentations
@@ -22,12 +29,14 @@ class DataViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int
+    {
         // #warning Incomplete implementation, return the number of sections
         return 0
     }
 
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
