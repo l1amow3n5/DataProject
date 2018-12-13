@@ -26,7 +26,7 @@ public class BucketItemCell: UITableViewCell
     private func randomEmoji()->String
     {
         let emojiStart = 0x1F601
-        let emojiEnd = 0x1F64F
+        //let emojiEnd = 0x1F64F
         
         let emojiRange = 79
         
